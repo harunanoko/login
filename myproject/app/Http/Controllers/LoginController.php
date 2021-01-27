@@ -6,12 +6,12 @@ use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 
 
-class HelloController extends Controller
+class LoginController extends Controller
 {
   public function index()
   {
      
-     return view('login.login');
+     return view('login.index');
   }
 
 

@@ -14,21 +14,7 @@
 </header>
 
 <div class="container">
-
-    <div class="form">
-      
-      <h3>@yield('title')</h3>
-
-      <div class="input">
-        
          @yield('inputform')
-        
-        <input class="submit" type="submit" name="login" value="@yield('title')">
-      
-      </div>
-    
-    </div>
-
 </div>
 </body>
 </html>

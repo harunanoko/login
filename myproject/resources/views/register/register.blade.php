@@ -3,7 +3,7 @@
 @section('title','REGISTER')
 
 @section('inputform')
-<div class="form">
+<form method="" action="">
       
       <h3>REGISTER</h3>
         
@@ -29,8 +29,8 @@
             <input type="password" name="password">
           </div>  
 
-          <input class="submit" type="submit" name="login" value="@yield('title')">
+          <input class="submit" type="submit" name="login" value="REGISTER">
       
         </div>
-</div> 
+</form 
 @endsection

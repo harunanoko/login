@@ -21,4 +21,8 @@ Route::get('login','LoginController@index');
 
 Route::get('register','RegisterController@index');
 
+Route::get('loggedin','LoggedinController@index');
+
+Route::post('register','RegisterController@post');
+
 

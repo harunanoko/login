@@ -1,8 +1,14 @@
 @extends('layouts.index')
 
-@section('title','LOGIN')
+@section('header')
+<h1>LOGIN</h1>
+    <ul class="top">
+      <li><a href="{{ url('/login') }}">LOGIN</a></li>
+      <li><a href="{{ url('/register') }}">REGISTER</a></li>
+    </ul>
+@endsection
 
-@section('inputform')
+@section('container')
 <form method="" action="">
       
       <h3>LOGIN</h3>

@@ -42,7 +42,7 @@ h1{
 
 h3{
     background-color: #c0c0c0;
-    width: 100%;
+    
     margin-bottom: 0;
     padding: 10px;
     border-top: 1px solid;
@@ -55,6 +55,11 @@ h3{
     width: 100%;
     padding: 15px;
     box-sizing: border-box;
+}
+
+.input p {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 form {
@@ -77,10 +82,28 @@ input[type="submit" i]{
     text-align: center;
 }
 
+.error p {
+    color: red;
+    display: inline-block;
+}
+
 
 
 
 /*
-legister 登録画面のcss
+ログイン後の画面
 */
+.home {
+    width: 70%;
+    margin: 10px auto;
+}
+.message {
+    border: 1px solid;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+}
 
+.message a{
+  color: black;
+}

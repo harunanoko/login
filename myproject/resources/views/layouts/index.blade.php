@@ -6,15 +6,11 @@
 </head>
 <body>
 <header>
-    <h1>@yield('title')</h1>
-    <ul class="top">
-      <li><a href="{{ url('/login') }}">LOGIN</a></li>
-      <li><a href="{{ url('/register') }}">REGISTER</a></li>
-    </ul>
+  　　@yield('header')
 </header>
 
 <div class="container">
-         @yield('inputform')
+      @yield('container')
 </div>
 </body>
 </html>

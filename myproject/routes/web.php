@@ -26,3 +26,4 @@ Route::get('loggedin','LoggedinController@index');
 Route::post('register','RegisterController@post');
 
 
+

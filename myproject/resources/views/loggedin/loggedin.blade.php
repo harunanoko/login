@@ -13,7 +13,7 @@
       <h3>HOME</h3>
         
         <div class="message">
-          <h2>{{$name}}</h2>
+          <h2>{{$list1}}</h2>
           <p>You are logged in!</p>
       
         </div>
